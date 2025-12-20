@@ -1266,8 +1266,16 @@ body {
 	transform: scale(1.1);
 }
 
+.window.opened .window-front {
+	visibility: hidden;
+}
+
 .window.opened .window-back {
 	animation: glow 2s ease-in-out infinite alternate;
+}
+
+.window:not(.opened) .window-back {
+	visibility: hidden;
 }
 
 @keyframes glow {
