@@ -1774,11 +1774,13 @@ body {
 	}
 	
 	.date-display {
-		font-size: 0.75rem;
-		padding: 6px 12px;
 		top: auto;
-		left: 50%;
-		transform: translateX(-50%);
+        bottom: 15px;
+        left: 15px;
+        right: auto;
+        transform: none;
+        font-size: 0.75rem;
+        padding: 6px 12px;
 	}
 	
 	.christmas-lights {
