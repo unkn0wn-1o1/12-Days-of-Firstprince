@@ -1686,26 +1686,6 @@ body {
 		padding-bottom: 1px;
 	}
 	
-	.number-wreath {
-		width: 50px;
-		height: 50px;
-		border-width: 6px;
-	}
-	
-	.number-wreath::before {
-		top: -5px;
-		left: -5px;
-		right: -5px;
-		bottom: -5px;
-		border-width: 5px;
-	}
-	
-	.number-wreath::after {
-		width: 10px;
-		height: 6px;
-		top: -6px;
-	}
-	
 	.window-back {
 		padding: 10px 5px;
 	}
