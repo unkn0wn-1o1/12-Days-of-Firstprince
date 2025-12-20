@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12 Days of Firstprince</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="date-display" id="dateDisplay"></div>
+		
+    <div class="stars" id="stars"></div>
+		
+    <div class="moon"></div>
+		
+    <div class="snowflakes" id="snowflakes"></div>
+		
+    <div class="scene">
+      <h1 class="title">✨ 12 Days of Firstprince ✨</h1>
+      <p class="instructions">Click on a <span>glowing window</span> to reveal the hint, then click again to visit!</p>
+			
+      <div class="buildings-row">
+        <div class="brownstone-base neighbor-left-far">
+          <div class="brownstone-cornice"></div>
+          <div class="brownstone-dental"></div>
+          <div class="neighbor-snow-roof"></div>
+					
+          <div class="neighbor-windows">
+						<div class="neighbor-window"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window lit"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window lit"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window lit"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window lit"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window lit"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window lit"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+					</div>
+					
+					<div class="neighbor-entrance">
+						<div class="neighbor-stoop">
+							
+							<div class="neighbor-door">
+								<div class="neighbor-door-knob"></div>
+								<div class="neighbor-door-wreath"></div>
+								<div class="neighbor-door-wreath-bow"></div>
+								<div class="neighbor-door-bow-center"></div>
+								<div class="neighbor-door-bow-ribbon-left"></div>
+								<div class="neighbor-door-bow-ribbon-right"></div>
+							</div>
+							
+							<div class="neighbor-steps">
+								<div class="neighbor-step neighbor-step-1"><div class="neighbor-step-snow"></div></div>
+								<div class="neighbor-step neighbor-step-2"><div class="neighbor-step-snow"></div></div>
+								<div class="neighbor-step neighbor-step-3"><div class="neighbor-step-snow"></div></div>
+								<div class="neighbor-step neighbor-step-4"><div class="neighbor-step-snow"></div></div>
+								<div class="neighbor-step neighbor-step-5"><div class="neighbor-step-snow"></div></div>
+								<div class="neighbor-step neighbor-step-6"><div class="neighbor-step-snow"></div></div>
+								
+								<div class="neighbor-newel neighbor-newel-left"></div>
+								<div class="neighbor-finial neighbor-finial-left"></div>
+								<div class="neighbor-handrail neighbor-handrail-left"></div>
+								
+								<div class="neighbor-baluster nb-1-left"></div>
+								<div class="neighbor-baluster nb-2-left"></div>
+								<div class="neighbor-baluster nb-3-left"></div>
+								<div class="neighbor-baluster nb-4-left"></div>
+								<div class="neighbor-baluster nb-5-left"></div>
+								<div class="neighbor-baluster nb-6-left"></div>
+								
+								<div class="neighbor-newel neighbor-newel-right"></div>
+								<div class="neighbor-finial neighbor-finial-right"></div>
+								<div class="neighbor-handrail neighbor-handrail-right"></div>
+								
+								<div class="neighbor-baluster nb-1-right"></div>
+								<div class="neighbor-baluster nb-2-right"></div>
+								<div class="neighbor-baluster nb-3-right"></div>
+								<div class="neighbor-baluster nb-4-right"></div>
+								<div class="neighbor-baluster nb-5-right"></div>
+								<div class="neighbor-baluster nb-6-right"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="brownstone-base neighbor-left">
+					<div class="brownstone-cornice"></div>
+					<div class="brownstone-dental"></div>
+					<div class="neighbor-snow-roof"></div>
+					
+					<div class="neighbor-windows">
+						<div class="neighbor-window lit"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window lit"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window lit"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window lit"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window lit"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+					</div>
+					
+					<div class="neighbor-entrance">
+						<div class="neighbor-stoop">
+							
+							<div class="neighbor-door lit">
+								<div class="neighbor-door-knob"></div>
+								<div class="neighbor-door-wreath"></div>
+								<div class="neighbor-door-wreath-bow"></div>
+								<div class="neighbor-door-bow-center"></div>
+								<div class="neighbor-door-bow-ribbon-left"></div>
+								<div class="neighbor-door-bow-ribbon-right"></div>
+							</div>
+							
+							<div class="neighbor-steps">
+								<div class="neighbor-step neighbor-step-1"><div class="neighbor-step-snow"></div></div>
+								<div class="neighbor-step neighbor-step-2"><div class="neighbor-step-snow"></div></div>
+								<div class="neighbor-step neighbor-step-3"><div class="neighbor-step-snow"></div></div>
+								<div class="neighbor-step neighbor-step-4"><div class="neighbor-step-snow"></div></div>
+								<div class="neighbor-step neighbor-step-5"><div class="neighbor-step-snow"></div></div>
+								<div class="neighbor-step neighbor-step-6"><div class="neighbor-step-snow"></div></div>
+								
+								<div class="neighbor-newel neighbor-newel-left"></div>
+								<div class="neighbor-finial neighbor-finial-left"></div>
+								<div class="neighbor-handrail neighbor-handrail-left"></div>
+								
+								<div class="neighbor-baluster nb-1-left"></div>
+								<div class="neighbor-baluster nb-2-left"></div>
+								<div class="neighbor-baluster nb-3-left"></div>
+								<div class="neighbor-baluster nb-4-left"></div>
+								<div class="neighbor-baluster nb-5-left"></div>
+								<div class="neighbor-baluster nb-6-left"></div>
+								
+								<div class="neighbor-newel neighbor-newel-right"></div>
+								<div class="neighbor-finial neighbor-finial-right"></div>
+								<div class="neighbor-handrail neighbor-handrail-right"></div>
+								
+								<div class="neighbor-baluster nb-1-right"></div>
+								<div class="neighbor-baluster nb-2-right"></div>
+								<div class="neighbor-baluster nb-3-right"></div>
+								<div class="neighbor-baluster nb-4-right"></div>
+								<div class="neighbor-baluster nb-5-right"></div>
+								<div class="neighbor-baluster nb-6-right"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="calendar-container">
+					<div class="brownstone">
+						<div class="cornice"></div>
+						<div class="dental-molding"></div>
+						<div class="main-snow-roof"></div>
+						
+						<div class="christmas-lights">
+							<div class="light-string"></div>
+							<div class="light-bulb red"></div>
+							<div class="light-bulb yellow"></div>
+							<div class="light-bulb green"></div>
+							<div class="light-bulb blue"></div>
+							<div class="light-bulb pink"></div>
+							<div class="light-bulb red"></div>
+							<div class="light-bulb yellow"></div>
+							<div class="light-bulb green"></div>
+							<div class="light-bulb blue"></div>
+							<div class="light-bulb pink"></div>
+							<div class="light-bulb red"></div>
+							<div class="light-bulb yellow"></div>
+							<div class="light-bulb green"></div>
+							<div class="light-bulb blue"></div>
+							<div class="light-bulb pink"></div>
+							<div class="light-bulb red"></div>
+							<div class="light-bulb yellow"></div>
+							<div class="light-bulb green"></div>
+							<div class="light-bulb blue"></div>
+							<div class="light-bulb pink"></div>
+						</div>
+						
+						<div class="windows-grid">
+							<div class="window" data-day="1">
+								<div class="window-inner">
+									<div class="window-front" onclick="openWindow(this.closest('.window'))">
+										<div class="number-wreath"></div>
+										<span class="day-number">1</span>
+									</div>
+									<div class="window-back">
+										<button class="window-close" onclick="event.stopPropagation(); closeWindow(this.closest('.window'))">✕</button>
+										<a href="https://example.com/day1" target="_blank" class="window-link">AHHHHHH</a>
+									</div>
+								</div>
+								<div class="snow-pile-sill"></div>
+							</div>
+							<div class="window" data-day="2">
+								<div class="window-inner">
+									<div class="window-front" onclick="openWindow(this.closest('.window'))">
+										<div class="number-wreath"></div>
+										<span class="day-number">2</span>
+									</div>
+									<div class="window-back">
+										<button class="window-close" onclick="event.stopPropagation(); closeWindow(this.closest('.window'))">✕</button>
+										<a href="https://example.com/day2" target="_blank" class="window-link">AHHHHHH</a>
+									</div>
+								</div>
+								<div class="snow-pile-sill"></div>
+							</div>
+							<div class="window" data-day="3">
+								<div class="window-inner">
+									<div class="window-front" onclick="openWindow(this.closest('.window'))">
+										<div class="number-wreath"></div>
+										<span class="day-number">3</span>
+									</div>
+									<div class="window-back">
+										<button class="window-close" onclick="event.stopPropagation(); closeWindow(this.closest('.window'))">✕</button>
+										<a href="https://example.com/day3" target="_blank" class="window-link">AHHHHHH</a>
+									</div>
+								</div>
+								<div class="snow-pile-sill"></div>
+							</div>
+							<div class="window" data-day="4">
+								<div class="window-inner">
+									<div class="window-front" onclick="openWindow(this.closest('.window'))">
+										<div class="number-wreath"></div>
+										<span class="day-number">4</span>
+									</div>
+									<div class="window-back">
+										<button class="window-close" onclick="event.stopPropagation(); closeWindow(this.closest('.window'))">✕</button>
+										<a href="https://example.com/day4" target="_blank" class="window-link">AHHHHHH</a>
+									</div>
+								</div>
+								<div class="snow-pile-sill"></div>
+							</div>
+							<div class="window" data-day="5">
+								<div class="window-inner">
+									<div class="window-front" onclick="openWindow(this.closest('.window'))">
+										<div class="number-wreath"></div>
+										<span class="day-number">5</span>
+									</div>
+									<div class="window-back">
+										<button class="window-close" onclick="event.stopPropagation(); closeWindow(this.closest('.window'))">✕</button>
+										<a href="https://example.com/day5" target="_blank" class="window-link">AHHHHHH</a>
+									</div>
+								</div>
+								<div class="snow-pile-sill"></div>
+							</div>
+							<div class="window" data-day="6">
+								<div class="window-inner">
+									<div class="window-front" onclick="openWindow(this.closest('.window'))">
+										<div class="number-wreath"></div>
+										<span class="day-number">6</span>
+									</div>
+									<div class="window-back">
+										<button class="window-close" onclick="event.stopPropagation(); closeWindow(this.closest('.window'))">✕</button>
+										<a href="https://example.com/day6" target="_blank" class="window-link">AHHHHHH</a>
+									</div>
+								</div>
+								<div class="snow-pile-sill"></div>
+							</div>
+							<div class="window" data-day="7">
+								<div class="window-inner">
+									<div class="window-front" onclick="openWindow(this.closest('.window'))">
+										<div class="number-wreath"></div>
+										<span class="day-number">7</span>
+									</div>
+									<div class="window-back">
+										<button class="window-close" onclick="event.stopPropagation(); closeWindow(this.closest('.window'))">✕</button>
+										<a href="https://example.com/day7" target="_blank" class="window-link">AHHHHHH</a>
+									</div>
+								</div>
+								<div class="snow-pile-sill"></div>
+							</div>
+							<div class="window" data-day="8">
+								<div class="window-inner">
+									<div class="window-front" onclick="openWindow(this.closest('.window'))">
+										<div class="number-wreath"></div>
+										<span class="day-number">8</span>
+									</div>
+									<div class="window-back">
+										<button class="window-close" onclick="event.stopPropagation(); closeWindow(this.closest('.window'))">✕</button>
+										<a href="https://example.com/day8" target="_blank" class="window-link">AHHHHHH</a>
+									</div>
+								</div>
+								<div class="snow-pile-sill"></div>
+							</div>
+							<div class="window" data-day="9">
+								<div class="window-inner">
+									<div class="window-front" onclick="openWindow(this.closest('.window'))">
+										<div class="number-wreath"></div>
+										<span class="day-number">9</span>
+									</div>
+									<div class="window-back">
+										<button class="window-close" onclick="event.stopPropagation(); closeWindow(this.closest('.window'))">✕</button>
+										<a href="https://example.com/day9" target="_blank" class="window-link">AHHHHHH</a>
+									</div>
+								</div>
+								<div class="snow-pile-sill"></div>
+							</div>
+							<div class="window" data-day="10">
+								<div class="window-inner">
+									<div class="window-front" onclick="openWindow(this.closest('.window'))">
+										<div class="number-wreath"></div>
+										<span class="day-number">10</span>
+									</div>
+									<div class="window-back">
+										<button class="window-close" onclick="event.stopPropagation(); closeWindow(this.closest('.window'))">✕</button>
+										<a href="https://example.com/day10" target="_blank" class="window-link">AHHHHHH</a>
+									</div>
+								</div>
+								<div class="snow-pile-sill"></div>
+							</div>
+							<div class="window" data-day="11">
+								<div class="window-inner">
+									<div class="window-front" onclick="openWindow(this.closest('.window'))">
+										<div class="number-wreath"></div>
+										<span class="day-number">11</span>
+									</div>
+									<div class="window-back">
+										<button class="window-close" onclick="event.stopPropagation(); closeWindow(this.closest('.window'))">✕</button>
+										<a href="https://example.com/day11" target="_blank" class="window-link">AHHHHHH</a>
+									</div>
+								</div>
+								<div class="snow-pile-sill"></div>
+							</div>
+							<div class="window" data-day="12">
+								<div class="window-inner">
+									<div class="window-front" onclick="openWindow(this.closest('.window'))">
+										<div class="number-wreath"></div>
+										<span class="day-number">12</span>
+									</div>
+									<div class="window-back">
+										<button class="window-close" onclick="event.stopPropagation(); closeWindow(this.closest('.window'))">✕</button>
+										<a href="https://example.com/day12" target="_blank" class="window-link">AHHHHHH</a>
+									</div>
+								</div>
+								<div class="snow-pile-sill"></div>
+							</div>
+						</div>
+						
+						<div class="entrance">
+							<div class="stoop">
+								
+								<div class="front-door">
+									<div class="door-knob"></div>
+									<div class="door-wreath"></div>
+									<div class="door-wreath-bow"></div>
+									<div class="door-bow-center"></div>
+									<div class="door-bow-ribbon-left"></div>
+									<div class="door-bow-ribbon-right"></div>
+								</div>
+								
+								<div class="steps-container">
+									<div class="step step-1"><div class="step-snow"></div></div>
+									<div class="step step-2"><div class="step-snow"></div></div>
+									<div class="step step-3"><div class="step-snow"></div></div>
+									<div class="step step-4"><div class="step-snow"></div></div>
+									<div class="step step-5"><div class="step-snow"></div></div>
+									<div class="step step-6"><div class="step-snow"></div></div>
+									
+									<div class="newel-post newel-post-left"></div>
+									<div class="ball-finial ball-finial-left"></div>
+									<div class="handrail handrail-left"></div>
+									
+									<div class="railing-garland-left">
+										<div class="garland-berry"></div>
+										<div class="garland-berry"></div>
+										<div class="garland-berry"></div>
+										<div class="garland-berry"></div>
+									</div>
+									
+									<div class="newel-garland newel-garland-left"></div>
+									<div class="snow-pile-railing snow-pile-railing-left"></div>
+									
+									<div class="baluster baluster-1-left"></div>
+									<div class="baluster baluster-2-left"></div>
+									<div class="baluster baluster-3-left"></div>
+									<div class="baluster baluster-4-left"></div>
+									<div class="baluster baluster-5-left"></div>
+									<div class="baluster baluster-6-left"></div>
+									
+									<div class="newel-post newel-post-right"></div>
+									<div class="ball-finial ball-finial-right"></div>
+									<div class="handrail handrail-right"></div>
+									
+									<div class="railing-garland-right">
+										<div class="garland-berry"></div>
+										<div class="garland-berry"></div>
+										<div class="garland-berry"></div>
+										<div class="garland-berry"></div>
+									</div>
+									
+									<div class="newel-garland newel-garland-right"></div>
+									<div class="snow-pile-railing snow-pile-railing-right"></div>
+									
+									<div class="baluster baluster-1-right"></div>
+									<div class="baluster baluster-2-right"></div>
+									<div class="baluster baluster-3-right"></div>
+									<div class="baluster baluster-4-right"></div>
+									<div class="baluster baluster-5-right"></div>
+									<div class="baluster baluster-6-right"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="brownstone-base neighbor-right">
+					<div class="brownstone-cornice"></div>
+					<div class="brownstone-dental"></div>
+					<div class="neighbor-snow-roof"></div>
+					
+					<div class="neighbor-windows">
+						<div class="neighbor-window"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window lit"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window lit"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window lit"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window lit"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window lit"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+					</div>
+					
+					<div class="neighbor-entrance">
+						<div class="neighbor-stoop">
+							
+							<div class="neighbor-door">
+								<div class="neighbor-door-knob"></div>
+								<div class="neighbor-door-wreath"></div>
+								<div class="neighbor-door-wreath-bow"></div>
+								<div class="neighbor-door-bow-center"></div>
+								<div class="neighbor-door-bow-ribbon-left"></div>
+								<div class="neighbor-door-bow-ribbon-right"></div>
+							</div>
+							
+							<div class="neighbor-steps">
+								<div class="neighbor-step neighbor-step-1"><div class="neighbor-step-snow"></div></div>
+								<div class="neighbor-step neighbor-step-2"><div class="neighbor-step-snow"></div></div>
+								<div class="neighbor-step neighbor-step-3"><div class="neighbor-step-snow"></div></div>
+								<div class="neighbor-step neighbor-step-4"><div class="neighbor-step-snow"></div></div>
+								<div class="neighbor-step neighbor-step-5"><div class="neighbor-step-snow"></div></div>
+								<div class="neighbor-step neighbor-step-6"><div class="neighbor-step-snow"></div></div>
+								
+								<div class="neighbor-newel neighbor-newel-left"></div>
+								<div class="neighbor-finial neighbor-finial-left"></div>
+								<div class="neighbor-handrail neighbor-handrail-left"></div>
+								
+								<div class="neighbor-baluster nb-1-left"></div>
+								<div class="neighbor-baluster nb-2-left"></div>
+								<div class="neighbor-baluster nb-3-left"></div>
+								<div class="neighbor-baluster nb-4-left"></div>
+								<div class="neighbor-baluster nb-5-left"></div>
+								<div class="neighbor-baluster nb-6-left"></div>
+								
+								<div class="neighbor-newel neighbor-newel-right"></div>
+								<div class="neighbor-finial neighbor-finial-right"></div>
+								<div class="neighbor-handrail neighbor-handrail-right"></div>
+								
+								<div class="neighbor-baluster nb-1-right"></div>
+								<div class="neighbor-baluster nb-2-right"></div>
+								<div class="neighbor-baluster nb-3-right"></div>
+								<div class="neighbor-baluster nb-4-right"></div>
+								<div class="neighbor-baluster nb-5-right"></div>
+								<div class="neighbor-baluster nb-6-right"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="brownstone-base neighbor-right-far">
+					<div class="brownstone-cornice"></div>
+					<div class="brownstone-dental"></div>
+					<div class="neighbor-snow-roof"></div>
+					
+					<div class="neighbor-windows">
+						<div class="neighbor-window"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window lit"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window lit"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window lit"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+<div class="neighbor-window"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window lit"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+						<div class="neighbor-window"><div class="neighbor-window-sill"></div><div class="neighbor-sill-snow"></div></div>
+					</div>
+					
+					<div class="neighbor-entrance">
+						<div class="neighbor-stoop">
+							
+							<div class="neighbor-door lit">
+								<div class="neighbor-door-knob"></div>
+								<div class="neighbor-door-wreath"></div>
+							</div>
+							
+							<div class="neighbor-steps">
+								<div class="neighbor-step neighbor-step-1"><div class="neighbor-step-snow"></div></div>
+								<div class="neighbor-step neighbor-step-2"><div class="neighbor-step-snow"></div></div>
+								<div class="neighbor-step neighbor-step-3"><div class="neighbor-step-snow"></div></div>
+								<div class="neighbor-step neighbor-step-4"><div class="neighbor-step-snow"></div></div>
+								<div class="neighbor-step neighbor-step-5"><div class="neighbor-step-snow"></div></div>
+								<div class="neighbor-step neighbor-step-6"><div class="neighbor-step-snow"></div></div>
+								
+								<div class="neighbor-newel neighbor-newel-left"></div>
+								<div class="neighbor-finial neighbor-finial-left"></div>
+								<div class="neighbor-handrail neighbor-handrail-left"></div>
+								
+								<div class="neighbor-baluster nb-1-left"></div>
+								<div class="neighbor-baluster nb-2-left"></div>
+								<div class="neighbor-baluster nb-3-left"></div>
+								<div class="neighbor-baluster nb-4-left"></div>
+								<div class="neighbor-baluster nb-5-left"></div>
+								<div class="neighbor-baluster nb-6-left"></div>
+								
+								<div class="neighbor-newel neighbor-newel-right"></div>
+								<div class="neighbor-finial neighbor-finial-right"></div>
+								<div class="neighbor-handrail neighbor-handrail-right"></div>
+								
+								<div class="neighbor-baluster nb-1-right"></div>
+								<div class="neighbor-baluster nb-2-right"></div>
+								<div class="neighbor-baluster nb-3-right"></div>
+								<div class="neighbor-baluster nb-4-right"></div>
+								<div class="neighbor-baluster nb-5-right"></div>
+								<div class="neighbor-baluster nb-6-right"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="street-container">
+				<div class="sidewalk"></div>
+				<div class="street"></div>
+			</div>
+		</div>
+
+		<script src="script.js"></script>
+	</body>
+</html>
