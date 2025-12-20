@@ -14,14 +14,18 @@ function updateWindowStates() {
   const today = new Date();
   const currentMonth = today.getMonth();
   const currentDay = today.getDate();
+  
   let adventDay;
   if (TEST_DAY !== null) {
     adventDay = TEST_DAY;
   }
-  else if (currentMonth === ADVENT_START_MONTH) {
-    adventDay = currentDay - ADVENT_START_DAY + 1;
+  else if (currentMonth === 11 && currentDay >= 25) {
+    adventDay = currentDay - 25 + 1;
   }
-  else if (currentMonth > ADVENT_START_MONTH || (currentMonth === 0 && ADVENT_START_MONTH === 11)) {
+  else if (currentMonth === 0 && currentDay <= 5) {
+    adventDay = currentDay + 7;
+  }
+  else if (currentMonth === 0 && currentDay > 5) {
     adventDay = 13;
   }
   else {
