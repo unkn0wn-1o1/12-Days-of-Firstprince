@@ -25,11 +25,11 @@ function updateWindowStates() {
   else if (currentMonth === 0 && currentDay <= 5) {
     adventDay = currentDay + 7;
   }
-  else if (currentMonth === 0 && currentDay > 5) {
-    adventDay = 13;
+  else if (currentMonth === 11 && currentDay < 25) {
+    adventDay = 0;
   }
   else {
-    adventDay = 0;
+    adventDay = 13;
   }
   
   const dateDisplay = document.getElementById('dateDisplay');
