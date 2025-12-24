@@ -1,5 +1,4 @@
 <h1 align="center">12 Days of Firstprince</h1>
-<h3 align="center">A 12 Days of Christmas Themed Advent Calendar</h3>
 
 ## About
 Hello and welcome! This is an advent calendar that I coded for my fanfic [12 Days of Firstprince](https://archiveofourown.org/works/76207651).
